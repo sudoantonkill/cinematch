@@ -1,0 +1,25 @@
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime state and logs
+.backend_pid
+.frontend_pid
+*.log
+
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node/Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local Spark output
+spark-warehouse/
+metastore_db/
+derby.log
